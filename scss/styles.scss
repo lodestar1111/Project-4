@@ -1,1 +1,11 @@
-@import "_variables";
+// Partial imports
+
+@import "utilities/variables",
+"utilities/mixins",
+"base/typography",
+"components/images",
+"components/button",
+"components/form",
+"components/grid",
+"components/navigation",
+"components/media-queries";
