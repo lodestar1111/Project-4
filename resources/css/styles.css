@@ -3,7 +3,7 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #777;
   box-sizing: border-box;
 }
@@ -15,7 +15,6 @@ p {
 a {
   text-decoration: none;
 }
-
 
 /* ============================================= */
 /*              Typography                       */
@@ -46,7 +45,6 @@ a {
   border-radius: 5px;
 }
 
-
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
@@ -61,7 +59,7 @@ a {
   padding: 1em 10px;
 }
 
-[class^=col] {
+[class^="col"] {
   margin-top: 10px;
   flex-basis: 100%;
   min-height: 25px;
@@ -121,7 +119,6 @@ a {
   flex-basis: 100%;
 }
 
-
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
@@ -139,16 +136,13 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition:
-    background-color .2s ease-in-out,
-    color .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
-
 
 /* ============================================= */
 /*              Buttons                          */
@@ -184,7 +178,6 @@ a {
   background-color: #fd7856;
 }
 
-
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
@@ -210,7 +203,6 @@ a {
   height: 1px;
   overflow: hidden;
 }
-
 
 /* ============================================= */
 /*              Images                           */
@@ -241,12 +233,10 @@ a {
   margin-right: auto;
 }
 
-
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-
   .container {
     max-width: 1400px;
     display: block;
@@ -264,14 +254,14 @@ a {
     flex-direction: row;
   }
 
-  [class^=col] {
+  [class^="col"] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
 
-  [class^=col]+[class^=col] {
+  [class^="col"] + [class^="col"] {
     margin-left: 10px;
   }
 
@@ -284,7 +274,7 @@ a {
   }
 
   .col-3 {
-    flex-basis: 25.00%;
+    flex-basis: 25%;
   }
 
   .col-4 {
@@ -296,7 +286,7 @@ a {
   }
 
   .col-6 {
-    flex-basis: 50.00%;
+    flex-basis: 50%;
   }
 
   .col-7 {
@@ -308,7 +298,7 @@ a {
   }
 
   .col-9 {
-    flex-basis: 75.00%
+    flex-basis: 75%;
   }
 
   .col-10 {
@@ -337,7 +327,7 @@ a {
     padding: 10px 30px;
   }
 
-  .btn+.btn {
+  .btn + .btn {
     margin-left: 10px;
   }
 
@@ -345,5 +335,4 @@ a {
     margin-left: initial;
     margin-right: initial;
   }
-
 }
