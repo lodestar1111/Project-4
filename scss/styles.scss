@@ -1,11 +1,5 @@
 // Partial imports
 
-@import "utilities/variables",
-"utilities/mixins",
-"base/typography",
-"components/images",
-"components/button",
-"components/form",
-"components/grid",
-"components/navigation",
-"components/media-queries";
+@import "base/index";
+@import "components/index";
+@import "utilities/index";
