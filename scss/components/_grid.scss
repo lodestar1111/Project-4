@@ -28,7 +28,7 @@
     flex-direction: column;
     padding: 1em 10px;
 
-    @include mq(brk-wide) {
+    @include mq($brk-wide) {
         flex-direction: row;
 
     }

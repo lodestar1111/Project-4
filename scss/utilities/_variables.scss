@@ -23,12 +23,3 @@ $border-radius: 5px;
 // Media query breakpoints
 
 $brk-wide: 768px;
-
-//button setup
-
-$btn-layout: ("default": $primary-color,
-    "error": $error,
-    "info": $info,
-    "success": $success,
-    "warning": $warning,
-);

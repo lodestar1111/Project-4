@@ -29,10 +29,7 @@
 
 .logo {
     @include mq($brk-wide) {
-
         margin-left: initial;
         margin-right: initial;
-
-
     }
 }
