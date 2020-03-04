@@ -4,6 +4,23 @@
 
 .container {
     padding: 0 10px;
+
+    @include mq($brk-wide) {
+
+        max-width: 1400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.centered {
+    @include mq($brk-wide) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .row {
@@ -11,6 +28,10 @@
     flex-direction: column;
     padding: 1em 10px;
 
+    @include mq(brk-wide) {
+        flex-direction: row;
+
+    }
 }
 
 [class^="col"] {
@@ -19,6 +40,19 @@
     min-height: 25px;
     padding: 10px;
     border-radius: $border-radius;
+
+    @include mq($brk-wide) {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        align-items: center;
+    }
+}
+
+[class^="col"]+[class^="col"] {
+    @include mq($brk-wide) {
+        margin-left: 10px;
+    }
 }
 
 .theme.col-1 {

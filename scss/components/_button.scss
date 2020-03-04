@@ -10,6 +10,17 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: $border-radius;
+
+    @include mq(brk-wide) {
+        padding: 10px 30px;
+    }
+
+    &+.btn {
+        @include mq($brk-wide) {
+            margin-left: 10px;
+        }
+
+    }
 }
 
 .default {

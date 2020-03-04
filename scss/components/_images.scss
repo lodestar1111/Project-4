@@ -26,3 +26,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.logo {
+    @include mq($brk-wide) {
+
+        margin-left: initial;
+        margin-right: initial;
+
+
+    }
+}
