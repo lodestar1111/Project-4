@@ -393,6 +393,11 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  background-color: #58e1c1;
+}
+
+.btn:hover {
+  background-color: #99edd9;
 }
 
 @media (min-width: 768px) {
@@ -477,7 +482,6 @@ a {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
-  background: #99edd9;
 }
 
 /* ============================================= */

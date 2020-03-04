@@ -10,7 +10,14 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: $border-radius;
+    background-color: $primary-color;
 }
+
+.btn:hover {
+    background-color: lighten($primary-color, 15%);
+}
+
+
 
 
 
