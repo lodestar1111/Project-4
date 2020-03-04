@@ -4,16 +4,18 @@
 
 .form {
     flex-basis: 100%;
+
+    .input {
+        display: block;
+        width: 94%;
+        margin: 10px auto 0;
+        border: none;
+        padding: 10px;
+        border-bottom: 5px solid $primary-color;
+    }
 }
 
-.input {
-    display: block;
-    width: 94%;
-    margin: 10px auto 0;
-    border: none;
-    padding: 10px;
-    border-bottom: 5px solid $primary-color;
-}
+
 
 .hidden {
     position: absolute;

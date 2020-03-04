@@ -3,8 +3,8 @@
 /* ============================================= */
 
 * {
-    font-family: "Lato", sans-serif;
-    color: $secondary-color;
+    font-family: $stack-sans-serif;
+    color: $col-text-color;
     box-sizing: border-box;
 }
 
@@ -31,11 +31,11 @@ a {
 
 .headline-secondary {
     font-weight: 300;
-    color: $secondary-color;
+    color: $col-text-color;
 }
 
 .link {
-    color: $light-blue;
+    color: $border-color;
     font-weight: 700;
 }
 
@@ -46,5 +46,5 @@ a {
     margin-left: 20px;
     padding-left: 20px;
     border-left: 8px solid $primary-color;
-    border-radius: 5px;
+    border-radius: $border-radius;
 }

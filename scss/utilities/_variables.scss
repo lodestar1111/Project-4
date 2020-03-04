@@ -1,25 +1,17 @@
 // Functional color Variables ------------------//
 $primary-color: #58e1c1;
-$secondary-color: #777;
-$text-color: #fff;
+$col-text-color: #777;
+$btn-text-color: #fff;
 $border-color: #51ddfc;
+$img-frame: rgb(72, 52, 117);
+$base-light: lighten($primary-color, 25%);
 
-
-// Descriptive color variables
-
-$white: #fff;
-$light-blue: #51ddfc;
-$gray: #777;
-$teal: #58e1c1;
-
-
-// Button Colors
-$default: #51ddfc;
 $error: #e4757a;
 $info: #927bc1;
 $success: #63cc82;
-$warning: #802c18;
-// Font stacks
+$warning: #fd7856;
+
+// Font stack
 
 $stack-sans-serif: "Lato",
 sans-serif;
@@ -30,4 +22,4 @@ $border-radius: 5px;
 
 // Media query breakpoints
 
-$brk-wide: ":768px";
+$brk-wide: 768px;

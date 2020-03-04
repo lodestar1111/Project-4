@@ -396,7 +396,7 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: #58e1c1;
 }
 
 .error {
@@ -421,8 +421,7 @@ a {
 .form {
   flex-basis: 100%;
 }
-
-.input {
+.form .input {
   display: block;
   width: 94%;
   margin: 10px auto 0;
@@ -532,7 +531,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 3px solid #483475;
 }
 
 .img-logo {
@@ -544,7 +543,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (768px: 768px) {
   .container {
     max-width: 1400px;
     display: block;
