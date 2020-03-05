@@ -10,16 +10,17 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: $border-radius;
-}
 
-@each $theme,
-$color in $btn-layout {
-    &.#{$theme} {
-        background-color: $color;
 
-        &:hover {
-            background-color: lighten($color, 15%);
+    @each $theme,
+    $color in $btn-layout {
+        &.#{$theme} {
+            background-color: $color;
 
+            &:hover {
+                background-color: lighten($color, 15%);
+
+            }
         }
     }
 }
