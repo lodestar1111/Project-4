@@ -4,3 +4,15 @@
         @content;
     }
 }
+
+@mixin themes ($map) {
+
+    @each $theme,
+    $color in $btn-layout {
+        &-#{$theme} {
+            color: $color;
+        }
+
+    }
+
+}

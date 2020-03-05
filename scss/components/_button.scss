@@ -10,12 +10,20 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: $border-radius;
-    background-color: $primary-color;
 }
 
-.btn:hover {
-    background-color: lighten($primary-color, 15%);
+@each $theme,
+$color in $btn-layout {
+    &.#{$theme} {
+        background-color: $color;
+
+        &:hover {
+            background-color: lighten($color, 15%);
+
+        }
+    }
 }
+
 
 
 
@@ -25,28 +33,4 @@
     @include mq($brk-wide) {
         margin-left: 10px;
     }
-}
-
-
-
-
-
-.default {
-    background-color: $border-color;
-}
-
-.error {
-    background-color: #e4757a;
-}
-
-.info {
-    background-color: #927bc1;
-}
-
-.success {
-    background-color: #63cc82;
-}
-
-.warning {
-    background-color: #fd7856;
 }

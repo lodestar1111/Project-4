@@ -25,3 +25,10 @@ $border-radius: 5px;
 $brk-wide: 768px;
 
 //button layout
+
+$btn-layout: ("default": #58e1c1,
+    "error": #e4757a,
+    "info": #927bc1,
+    "success": #63cc82,
+    "warning": #fd7856,
+);

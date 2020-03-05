@@ -395,6 +395,21 @@ a {
   border-radius: 5px;
   background-color: #58e1c1;
 }
+.btn-default {
+  background-color: #58e1c1;
+}
+.btn-error {
+  background-color: #e4757a;
+}
+.btn-info {
+  background-color: #927bc1;
+}
+.btn-success {
+  background-color: #63cc82;
+}
+.btn-warning {
+  background-color: #fd7856;
+}
 
 .btn:hover {
   background-color: #99edd9;
